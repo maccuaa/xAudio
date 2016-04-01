@@ -1,0 +1,19 @@
+{
+  "name": "xAudio",
+  "version": "1.0.0",
+  "description": "Download audio from a webpage for offline listening",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./index.js",
+  "author": "Andrew",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "multi-progress": "^1.0.0",
+    "q": "^1.4.1",
+    "request": "^2.69.0",
+    "yargs": "^4.3.2"
+  }
+}
