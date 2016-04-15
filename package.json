@@ -1,13 +1,22 @@
 {
   "name": "xAudio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Download audio from a webpage for offline listening",
-  "main": "index.js",
+  "homepage": "https://github.com/st-andrew/xAudio",
+  "issues": "https://github.com/st-andrew/xAudio/issues",
+  "main": "./index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "deploy": "npm version patch && npm publish && git push --follow-tags",
+      "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": "./index.js",
-  "author": "Andrew",
+  "bin": {
+    "xAudio" : "./bin/xAudio"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git@github.com:st-andrew/xAudio.git"
+  },
+  "author": "st-andrew",
   "license": "MIT",
   "dependencies": {
     "cheerio": "^0.20.0",
