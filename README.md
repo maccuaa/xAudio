@@ -21,3 +21,5 @@ specify the download destination using the `-d` option.
 **Windows**
 
 `xAudio -u <URLs> -d C:\\Users\\andrew\\Downloads`
+
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
